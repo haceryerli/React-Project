@@ -1,0 +1,95 @@
+.pricing 
+{
+    width: 100%;
+    padding: 6rem 1rem;
+    background: #000;
+}
+.card-container
+{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.card
+{
+    border: 1px solid rgb(187, 99, 4);
+    color: #eee;
+    text-align: center;
+    padding: 1rem;
+}
+.card:hover 
+{
+    background-color: #281a04;
+}
+.card h3
+{
+    font-size: 1.4rem;
+    padding: 1rem;
+    letter-spacing: .1rem;
+}
+.card p 
+{
+    margin-top: 1rem;
+}
+.card img 
+{
+    width: 100%;
+}
+.bar 
+{
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+}
+.btc
+{
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.card .btn
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    margin: 2rem auto;
+}
+@media screen and (max-width: 1200px)
+{
+    .card-container
+    {
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto 2rem;
+    }
+    
+}
+@media screen and (max-width: 920px)
+{
+    .card-container
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media screen and (max-width: 780px)
+{
+    .card-container
+    {
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto 6rem;
+    }
+    
+}
+@media screen and (max-width: 480px)
+{
+    .card-container
+    {
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto 2rem;
+    }
+    
+}
